@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <!-- First Name -->
+    <label> First Name:</label>
+    <input type="text" name="firstname"> <br>
+    
+    <!-- Last Name -->
+    <label> Last Name:</label>
+    <input type="text" name="lastname"> <br>
+
+    <!-- Email -->
+    <label>Email Address:</label>
+    <input type="text" name="email"> <br>
+
+    <!-- Password -->
+    <label>Password:</label>
+    <input type="password" name="password"> <br>
+
+    <!-- Confirm Password -->
+    <label>Confirm Password:</label>
+    <input type="password" name="password"> <br>
+
+    <!-- Birthday -->
+    <label>Birthday:</label>
+    <input type="date" name="dob"> <br>
+
+    <!-- Gender Identity -->
+    <label>Gender Identity:</label> <br>
+
+    <input type="radio" name="Gender" value="Male">
+    <label for="Male"><strong>Male</strong></label> 
+
+    <input type="radio" name="Gender" value="Female">
+    <label for="Female"><strong>Female</strong></label>
+
+    <input type="radio" name="Gender" value="Non-Binary">
+    <label for="Non-Binary"><strong>Non-Binary</strong></label>
+
+    <input type="radio" name="Gender" value="I prefer not to answer">
+    <label for="I prefer not to answer"><strong>I prefer not to answer</strong></label> <br>
+
+    <!-- Comment -->
+    <label>A short description about myself:</label> <br>
+    <textarea name="comment" cols="30" rows="10"></textarea> <br>
+
+    <!-- Favorite Language -->
+    <label>Favorite Language:</label>
+    <select name="favorite language">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="C++">C++</option>
+        <option value="Ruby">Ruby</option>
+    </select> <br>
+
+    <!-- CheckBox -->
+    <input type="checkbox" name="Yes">
+    <label for="Yes">Yes, I would like to receive periodic email updates</label> <br>
+
+    <!-- Submit Button -->
+    <input type="submit"  value="Create Account"> 
+
+    <footer>*Indicates a required field</footer>
+
+
+
+</body>
+</html>
